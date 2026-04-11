@@ -1,0 +1,241 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aa71e631-a14f-409f-b19b-1d980ff58830")
+	(paper "A4")
+	(lib_symbols)
+	(text "VUSB : 5.0V (typical)\nVIN  : 5.2 - 3.0V\nVBAT : 4.2 - 3.0V\n3V3  : 3.3V (typical)"
+		(exclude_from_sim no)
+		(at 127.254 29.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79dee5db-6f73-4804-b00b-91b0710e7033")
+	)
+	(wire
+		(pts
+			(xy 50.8 27.94) (xy 63.5 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b67f14-5719-40f4-a155-3b84df93298f")
+	)
+	(bus
+		(pts
+			(xy 50.8 66.04) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9bdda97-d505-4781-a893-cc039cc53144")
+	)
+	(bus
+		(pts
+			(xy 50.8 30.48) (xy 63.5 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8bc41b-c292-45bf-91ef-3c9be9c44ced")
+	)
+	(sheet
+		(at 63.5 25.4)
+		(size 38.1 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "423d055d-7e98-4309-a6bb-6bde6dcb3bf8")
+		(property "Sheetname" "Daughterboard"
+			(at 63.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Daughterboard.kicad_sch"
+			(at 63.5 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO[02..47]" bidirectional
+			(at 63.5 66.04 180)
+			(uuid "1f385b8f-df8d-4f86-935d-ee04971d4b5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAIN_GPIO[09..29]" bidirectional
+			(at 63.5 30.48 180)
+			(uuid "155dbb77-c4e5-4d50-a6ef-982a20e98b6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{MAIN_RUN}" output
+			(at 63.5 27.94 180)
+			(uuid "dc0b339a-a040-4500-b666-45b2c41f53a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pico_concole_v2_daughter_board"
+				(path "/aa71e631-a14f-409f-b19b-1d980ff58830"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4886cccb-afbd-4125-b9a9-e3555db25593")
+		(property "Sheetname" "Main"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main.kicad_sch"
+			(at 25.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MAIN_GPIO[09..29]" bidirectional
+			(at 50.8 30.48 0)
+			(uuid "0743586b-e081-4da7-8d26-b01f4d3692bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MAIN_RUN}" input
+			(at 50.8 27.94 0)
+			(uuid "f636ea08-c690-46c1-b813-7568a0554f67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pico_concole_v2_daughter_board"
+				(path "/aa71e631-a14f-409f-b19b-1d980ff58830"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f2d6bec-4cdf-405c-a073-de4a6062ff14")
+		(property "Sheetname" "Southbridge"
+			(at 25.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Southbridge.kicad_sch"
+			(at 25.4 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO[02..47]" bidirectional
+			(at 50.8 66.04 0)
+			(uuid "089f454b-8fb7-4ad3-8740-6dc4febec4b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pico_concole_v2_daughter_board"
+				(path "/aa71e631-a14f-409f-b19b-1d980ff58830"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

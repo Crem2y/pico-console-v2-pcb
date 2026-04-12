@@ -5036,7 +5036,7 @@
 	)
 	(text "Battery"
 		(exclude_from_sim no)
-		(at 41.91 167.894 0)
+		(at 40.386 164.084 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5296,7 +5296,7 @@
 		(uuid "9ff657ce-ec14-4916-b7c9-e9112d97d276")
 	)
 	(junction
-		(at 33.02 186.69)
+		(at 67.31 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2331ed4-083d-4093-9dae-6c139f2831e0")
@@ -6181,7 +6181,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 179.07) (xy 25.4 186.69)
+			(xy 59.69 179.07) (xy 59.69 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6811,7 +6811,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 189.23) (xy 33.02 186.69)
+			(xy 67.31 189.23) (xy 67.31 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7421,7 +7421,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 179.07) (xy 25.4 179.07)
+			(xy 62.23 179.07) (xy 59.69 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8061,7 +8061,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 173.99) (xy 25.4 176.53)
+			(xy 59.69 173.99) (xy 59.69 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8171,7 +8171,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 186.69) (xy 33.02 186.69)
+			(xy 59.69 186.69) (xy 67.31 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8591,7 +8591,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 186.69) (xy 33.02 184.15)
+			(xy 67.31 186.69) (xy 67.31 184.15)
 		)
 		(stroke
 			(width 0)
@@ -9101,7 +9101,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 176.53) (xy 27.94 176.53)
+			(xy 59.69 176.53) (xy 62.23 176.53)
 		)
 		(stroke
 			(width 0)
@@ -10477,7 +10477,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8ccdd46a-321c-44a4-b54a-ee95b5bb1482")
+		(uuid "8ccdd46a-321c-44a4-b54a-ee95b5bb1483")
 	)
 	(label "TP_X-"
 		(at 349.25 77.47 0)
@@ -10487,7 +10487,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8ccdd46a-321c-44a4-b54a-ee95b5bb1482")
+		(uuid "8ccdd46a-321c-44a4-b54a-ee95b5bb1484")
 	)
 	(label "TP_Y-"
 		(at 349.25 80.01 0)
@@ -10497,7 +10497,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8ccdd46a-321c-44a4-b54a-ee95b5bb1482")
+		(uuid "8ccdd46a-321c-44a4-b54a-ee95b5bb1485")
 	)
 	(label "LRA_PWM_L2"
 		(at 63.5 53.34 180)
@@ -11521,70 +11521,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 394.97 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05a64cb4-d5c9-42d8-8eaa-e1c2c5020e2f")
-		(property "Reference" "H16"
-			(at 397.51 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2"
-			(at 397.51 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 394.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 394.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 394.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pico_concole_v2_daughter_board"
-				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/423d055d-7e98-4309-a6bb-6bde6dcb3bf8"
-					(reference "H16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_Optical:TSOP34S40F")
 		(at 294.64 165.1 0)
 		(mirror y)
@@ -11748,7 +11684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SM-05H-0xD-Zippy"
 			(at 176.53 219.71 0)
 			(effects
 				(font
@@ -11881,7 +11817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 146.05 234.95 0)
 			(effects
 				(font
@@ -12946,7 +12882,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 48.26 173.99 0)
+		(at 45.72 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12954,7 +12890,7 @@
 		(dnp no)
 		(uuid "3021770a-aa1b-4b4e-ad7c-0bf88af518c2")
 		(property "Reference" "#PWR023"
-			(at 48.26 177.8 0)
+			(at 45.72 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12963,7 +12899,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 48.26 170.18 0)
+			(at 45.72 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12971,7 +12907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 173.99 0)
+			(at 45.72 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12980,7 +12916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 173.99 0)
+			(at 45.72 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12989,7 +12925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 48.26 173.99 0)
+			(at 45.72 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13211,7 +13147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SM-05H-0xC-Zippy"
 			(at 130.81 219.71 0)
 			(effects
 				(font
@@ -13319,7 +13255,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 189.23 0)
+		(at 67.31 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13327,7 +13263,7 @@
 		(dnp no)
 		(uuid "3d83d520-e2fd-43d3-8be5-20910ec2b105")
 		(property "Reference" "#PWR020"
-			(at 33.02 195.58 0)
+			(at 67.31 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13336,7 +13272,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 193.04 0)
+			(at 67.31 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 189.23 0)
+			(at 67.31 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 189.23 0)
+			(at 67.31 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13362,7 +13298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 189.23 0)
+			(at 67.31 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13407,7 +13343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 130.81 265.43 0)
 			(effects
 				(font
@@ -13542,7 +13478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 130.81 250.19 0)
 			(effects
 				(font
@@ -13958,7 +13894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 146.05 265.43 0)
 			(effects
 				(font
@@ -14807,7 +14743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 161.29 250.19 0)
 			(effects
 				(font
@@ -15167,7 +15103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 176.53 265.43 0)
 			(effects
 				(font
@@ -15234,7 +15170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 130.81 234.95 0)
 			(effects
 				(font
@@ -15944,7 +15880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 161.29 234.95 0)
 			(effects
 				(font
@@ -16118,7 +16054,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 33.02 176.53 0)
+		(at 67.31 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16127,7 +16063,7 @@
 		(fields_autoplaced yes)
 		(uuid "83fa71f3-c21c-40c4-922e-6c7f7f0eabdf")
 		(property "Reference" "BAT1"
-			(at 35.56 176.8855 0)
+			(at 69.85 176.8855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16136,7 +16072,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 35.56 179.4255 0)
+			(at 69.85 179.4255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16145,7 +16081,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
-			(at 33.02 176.53 0)
+			(at 67.31 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16154,7 +16090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 176.53 0)
+			(at 67.31 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16163,7 +16099,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 176.53 0)
+			(at 67.31 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16473,7 +16409,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 25.4 173.99 0)
+		(at 59.69 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16481,7 +16417,7 @@
 		(dnp no)
 		(uuid "8d442294-f163-4af3-9900-60c89cead3d3")
 		(property "Reference" "#PWR021"
-			(at 25.4 177.8 0)
+			(at 59.69 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16490,7 +16426,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 25.4 170.18 0)
+			(at 59.69 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16498,7 +16434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 173.99 0)
+			(at 59.69 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16507,7 +16443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 173.99 0)
+			(at 59.69 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16516,7 +16452,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 173.99 0)
+			(at 59.69 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16648,7 +16584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 107.95 101.6 0)
 			(effects
 				(font
@@ -16931,7 +16867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 161.29 265.43 0)
 			(effects
 				(font
@@ -17130,7 +17066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SM-05H-0xC-Zippy"
 			(at 161.29 219.71 0)
 			(effects
 				(font
@@ -17831,7 +17767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 176.53 234.95 0)
 			(effects
 				(font
@@ -17898,7 +17834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 146.05 250.19 0)
 			(effects
 				(font
@@ -18533,7 +18469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SM-05H-0xD-Zippy"
 			(at 146.05 219.71 0)
 			(effects
 				(font
@@ -19311,70 +19247,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 382.27 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daa06fa9-068a-462a-9050-fcf86371bd54")
-		(property "Reference" "H15"
-			(at 384.81 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2"
-			(at 384.81 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 382.27 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 382.27 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 382.27 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pico_concole_v2_daughter_board"
-				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/423d055d-7e98-4309-a6bb-6bde6dcb3bf8"
-					(reference "H15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 50.8 271.78 0)
 		(mirror y)
@@ -19923,7 +19795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
 			(at 176.53 250.19 0)
 			(effects
 				(font

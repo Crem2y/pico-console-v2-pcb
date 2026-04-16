@@ -113,7 +113,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830"
-					(page "2")
+					(page "4")
 				)
 			)
 		)
@@ -175,7 +175,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -227,7 +227,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830"
-					(page "3")
+					(page "2")
 				)
 			)
 		)

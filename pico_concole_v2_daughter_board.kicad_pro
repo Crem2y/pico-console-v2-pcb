@@ -632,16 +632,16 @@
       "Root"
     ],
     [
-      "423d055d-7e98-4309-a6bb-6bde6dcb3bf8",
-      "Daughterboard"
-    ],
-    [
       "4f2d6bec-4cdf-405c-a073-de4a6062ff14",
       "Southbridge"
     ],
     [
       "4886cccb-afbd-4125-b9a9-e3555db25593",
       "Main"
+    ],
+    [
+      "423d055d-7e98-4309-a6bb-6bde6dcb3bf8",
+      "Daughterboard"
     ]
   ],
   "text_variables": {}

@@ -16,6 +16,26 @@
 		)
 		(uuid "79dee5db-6f73-4804-b00b-91b0710e7033")
 	)
+	(bus
+		(pts
+			(xy 50.8 68.58) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105cebc2-9f3f-4837-bb16-6c462ef879e0")
+	)
+	(wire
+		(pts
+			(xy 50.8 66.04) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa74ff4-a716-4288-9d69-0336ea8f37bc")
+	)
 	(wire
 		(pts
 			(xy 50.8 27.94) (xy 63.5 27.94)
@@ -25,16 +45,6 @@
 			(type default)
 		)
 		(uuid "78b67f14-5719-40f4-a155-3b84df93298f")
-	)
-	(bus
-		(pts
-			(xy 50.8 66.04) (xy 63.5 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9bdda97-d505-4781-a893-cc039cc53144")
 	)
 	(bus
 		(pts
@@ -81,7 +91,7 @@
 			)
 		)
 		(pin "GPIO[02..47]" bidirectional
-			(at 63.5 66.04 180)
+			(at 63.5 68.58 180)
 			(uuid "1f385b8f-df8d-4f86-935d-ee04971d4b5a")
 			(effects
 				(font
@@ -103,6 +113,16 @@
 		(pin "~{MAIN_RUN}" output
 			(at 63.5 27.94 180)
 			(uuid "dc0b339a-a040-4500-b666-45b2c41f53a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SB_RUN}" output
+			(at 63.5 66.04 180)
+			(uuid "fce27f2b-0f3c-459f-9c49-80405aa49306")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -215,8 +235,18 @@
 			)
 		)
 		(pin "GPIO[02..47]" bidirectional
-			(at 50.8 66.04 0)
+			(at 50.8 68.58 0)
 			(uuid "089f454b-8fb7-4ad3-8740-6dc4febec4b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SB_RUN}" input
+			(at 50.8 66.04 0)
+			(uuid "72beee21-1dbc-402b-b08a-2d6bb97551bf")
 			(effects
 				(font
 					(size 1.27 1.27)

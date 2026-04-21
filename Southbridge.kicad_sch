@@ -10197,7 +10197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm"
 			(at 101.6 180.34 0)
 			(effects
 				(font
@@ -10567,7 +10567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 64.77 127.508 90)
 			(effects
 				(font
@@ -11992,7 +11992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "inductor:L_pol_2016"
+		(property "Footprint" "Library:L_pol_2016"
 			(at 57.15 143.51 0)
 			(effects
 				(font

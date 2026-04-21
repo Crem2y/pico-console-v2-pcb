@@ -5131,7 +5131,7 @@
 	)
 	(text "AMP (R)"
 		(exclude_from_sim no)
-		(at 363.22 158.75 0)
+		(at 273.812 159.004 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5153,7 +5153,7 @@
 	)
 	(text "AMP (L)"
 		(exclude_from_sim no)
-		(at 275.336 159.258 0)
+		(at 362.204 159.258 0)
 		(effects
 			(font
 				(size 2.54 2.54)

@@ -3364,6 +3364,453 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:USBLC6-2SC6"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb ethernet video"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -5511,6 +5958,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 44.45) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516ce022-1650-4de0-afd3-ba8f40c55e97")
+	)
+	(wire
+		(pts
 			(xy 147.32 99.06) (xy 147.32 101.6)
 		)
 		(stroke
@@ -6941,6 +7398,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 41.91) (xy 91.44 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4f559b-7195-4e5b-8b19-14c63a7c27be")
+	)
+	(wire
+		(pts
 			(xy 44.45 256.54) (xy 30.48 256.54)
 		)
 		(stroke
@@ -7469,6 +7936,16 @@
 		)
 		(uuid "02afb10c-c0f5-4d21-95c0-8d3493adafab")
 	)
+	(label "USB_D-"
+		(at 91.44 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ca1a8a9-074f-475d-9496-c0b836c0b060")
+	)
 	(label "QSPI_SD0"
 		(at 74.93 162.56 0)
 		(effects
@@ -7728,6 +8205,16 @@
 			(justify left bottom)
 		)
 		(uuid "482dff6c-1e20-4c6a-b66b-50652c700e74")
+	)
+	(label "USB_D+"
+		(at 91.44 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "492a4f44-4c98-43db-ab4e-7f8d091f77ab")
 	)
 	(label "GPIO31"
 		(at 172.72 226.06 180)
@@ -8371,7 +8858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "043ce4e6-b8f0-4bc2-8a6a-e495345cd5c4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 98.425 45.085 0)
 			(effects
 				(font
@@ -8420,7 +8907,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8435,7 +8922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c26de80-f432-491f-aa3a-c997766381e3")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 41.91 140.97 0)
 			(effects
 				(font
@@ -8485,7 +8972,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8569,7 +9056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "164c23d8-c2a0-459c-a7c9-956a2d2b2369")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 214.63 241.3 0)
 			(effects
 				(font
@@ -8619,7 +9106,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8842,7 +9329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fc641aa-f498-44a7-9f5a-267f268a1a5f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 140.335 45.085 0)
 			(effects
 				(font
@@ -8891,7 +9378,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8975,7 +9462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "319e3b90-3243-4252-9bfa-0843a8017394")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 54.61 76.2 0)
 			(effects
 				(font
@@ -9025,7 +9512,92 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR05")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 78.74 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33cf9d19-7e13-4a4a-9d9e-104066e2a1b8")
+		(property "Reference" "U1"
+			(at 80.3911 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 80.3911 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 80.01 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b8b8c4c-9735-48fd-b9ee-0a854d4d8f77")
+		)
+		(pin "5"
+			(uuid "46198615-a5e8-412a-965e-83fd71b92a8a")
+		)
+		(pin "6"
+			(uuid "2c11dd5f-84d4-478c-9f8c-ced8203cebab")
+		)
+		(pin "3"
+			(uuid "95570df9-a692-42b1-9601-66b3ab2fd0ed")
+		)
+		(pin "2"
+			(uuid "a08bd098-8832-4466-94e5-633dc5008778")
+		)
+		(pin "4"
+			(uuid "534a3d62-f3bb-4c7c-ad21-eb943e6745c9")
+		)
+		(instances
+			(project ""
+				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9109,7 +9681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37508efe-0233-4b55-96e3-a7104f6bbdda")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 30.48 160.02 0)
 			(effects
 				(font
@@ -9159,7 +9731,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9450,7 +10022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f3986d1-ca97-406c-9af5-421ef3024b56")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 142.24 123.19 0)
 			(effects
 				(font
@@ -9500,7 +10072,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9582,7 +10154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5726d0d4-fccb-471b-977a-1a1a490babe0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 76.2 142.24 0)
 			(effects
 				(font
@@ -9631,7 +10203,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9646,7 +10218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58960378-a00d-4dfc-89a2-44c500705da9")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 97.79 123.19 0)
 			(effects
 				(font
@@ -9696,7 +10268,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9711,7 +10283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b8a841d-3afe-4830-8faa-66a845942a86")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR026"
 			(at 120.65 283.21 0)
 			(effects
 				(font
@@ -9761,7 +10333,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR073")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9854,7 +10426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VUSB"
 			(at 62.23 20.574 0)
 			(effects
 				(font
@@ -9979,7 +10551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ca257ab-b8a5-422b-9783-c479096c4d33")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 36.83 76.2 0)
 			(effects
 				(font
@@ -10029,7 +10601,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10044,7 +10616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f28ffd1-c305-433c-9d6b-d36aaf8b8c5c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 30.48 90.17 0)
 			(effects
 				(font
@@ -10094,7 +10666,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10179,7 +10751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a5d45cc-4afd-45c4-a4cd-c2e8557df70f")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 122.7933 276.86 0)
 			(effects
 				(font
@@ -10469,7 +11041,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10484,7 +11056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ed91a2e-955e-4b31-8fe1-df6a759de70c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 30.48 127 0)
 			(effects
 				(font
@@ -10534,7 +11106,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10762,7 +11334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bcbd9a9-70b4-43f4-8fea-ab3dd0f242c5")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 48.26 275.59 0)
 			(effects
 				(font
@@ -10812,7 +11384,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10896,7 +11468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90f67f90-ab41-4768-aed0-d223e6da39af")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 62.23 76.2 0)
 			(effects
 				(font
@@ -10946,7 +11518,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10961,7 +11533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bc923d8-1acc-4526-8652-c8ec03986d6b")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 215.392 241.554 0)
 			(effects
 				(font
@@ -11033,7 +11605,72 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "U2")
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 78.74 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e255232-430d-4f52-b79c-e564f891df85")
+		(property "Reference" "#PWR02"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 78.74 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cd58739-7ea6-4e5b-ba06-97d27a541f97")
+		)
+		(instances
+			(project "pico_concole_v2_daughter_board"
+				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11110,6 +11747,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 78.74 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a92accaf-d2a4-46da-a4fa-bdf85aa91d62")
+		(property "Reference" "#PWR05"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.613 53.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05f7f762-793b-4944-ab31-ea2d3f700d25")
+		)
+		(instances
+			(project "pico_concole_v2_daughter_board"
+				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 30.48 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11117,7 +11819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9676a03-a1f0-4e1c-88de-b4cc8a0b1775")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 30.48 110.49 0)
 			(effects
 				(font
@@ -11167,7 +11869,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11251,7 +11953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b12a0643-da78-4190-8416-f251698b7c4b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 71.12 110.49 0)
 			(effects
 				(font
@@ -11301,7 +12003,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11385,7 +12087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b82aaa02-e4d8-4688-99a4-527f47e11c56")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 71.12 90.17 0)
 			(effects
 				(font
@@ -11435,7 +12137,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11525,7 +12227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6ffa2cf-4ea9-4ba3-a7f3-6a02351f9ba5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 54.61 180.34 0)
 			(effects
 				(font
@@ -11575,7 +12277,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11909,7 +12611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d793151c-a587-4ede-acf0-390d68940c36")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 214.63 279.4 0)
 			(effects
 				(font
@@ -11959,7 +12661,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12262,7 +12964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9ffeb76-27f6-45b3-afd6-b173bf69c68c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 30.48 275.59 0)
 			(effects
 				(font
@@ -12312,7 +13014,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12327,7 +13029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecda617e-fb3f-4cac-b142-a97602062696")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 35.56 209.55 0)
 			(effects
 				(font
@@ -12377,7 +13079,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12530,7 +13232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe292172-9ebb-44b3-a7bb-33a650f9f437")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 64.77 275.59 0)
 			(effects
 				(font
@@ -12580,7 +13282,7 @@
 		(instances
 			(project "pico_concole_v2_daughter_board"
 				(path "/aa71e631-a14f-409f-b19b-1d980ff58830/4f2d6bec-4cdf-405c-a073-de4a6062ff14"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

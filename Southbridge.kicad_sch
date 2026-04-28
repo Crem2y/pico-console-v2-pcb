@@ -6848,16 +6848,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 134.62) (xy 160.02 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bc85f4e-847d-4199-a149-347e68cb4803")
-	)
-	(wire
-		(pts
 			(xy 157.48 210.82) (xy 172.72 210.82)
 		)
 		(stroke
@@ -6908,7 +6898,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 134.62) (xy 180.34 134.62)
+			(xy 190.5 137.16) (xy 180.34 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7578,16 +7568,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 134.62) (xy 172.72 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4b857d-5cb6-44c1-a757-3413a841cb2e")
-	)
-	(wire
-		(pts
 			(xy 157.48 139.7) (xy 172.72 139.7)
 		)
 		(stroke
@@ -7828,7 +7808,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 137.16) (xy 157.48 137.16)
+			(xy 157.48 137.16) (xy 172.72 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8247,7 +8227,7 @@
 		(uuid "5540de1c-0f9a-4792-9690-73d4a1a7463a")
 	)
 	(label "USB_D+"
-		(at 190.5 134.62 180)
+		(at 190.5 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8707,7 +8687,7 @@
 		(uuid "ee6c9bf3-8acd-4677-8ede-412829d93437")
 	)
 	(label "RP2350_D+"
-		(at 172.72 134.62 180)
+		(at 172.72 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9740,6 +9720,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 176.53 139.7 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9747,7 +9728,7 @@
 		(dnp no)
 		(uuid "3acf77cc-509e-4039-a2cc-62cd9cba52bf")
 		(property "Reference" "R5"
-			(at 176.022 137.668 90)
+			(at 176.022 141.732 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9737,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 179.832 137.668 90)
+			(at 179.832 141.732 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9765,7 +9746,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 176.53 141.478 90)
+			(at 176.53 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11678,7 +11659,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 134.62 90)
+		(at 176.53 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11686,7 +11667,7 @@
 		(dnp no)
 		(uuid "a633d4e3-c83f-46c4-9376-cb7043df829a")
 		(property "Reference" "R4"
-			(at 176.022 132.588 90)
+			(at 176.022 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11695,7 +11676,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 179.832 132.588 90)
+			(at 179.832 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11704,7 +11685,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 176.53 136.398 90)
+			(at 176.53 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11713,7 +11694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 134.62 0)
+			(at 176.53 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,7 +11703,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 134.62 0)
+			(at 176.53 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,7 +5,7 @@
 	(uuid "aa71e631-a14f-409f-b19b-1d980ff58830")
 	(paper "A4")
 	(lib_symbols)
-	(text "VUSB : 5.0V (typical)\nVIN  : 5.2 - 3.0V\nVBAT : 4.2 - 3.0V\n3V3  : 3.3V (typical)"
+	(text "VUSB : 5.0V (typical)\nVIN  : 5.5 - 3.0V\nVBAT : 4.2 - 3.0V\n3V3  : 3.3V (typical)"
 		(exclude_from_sim no)
 		(at 114.554 29.972 0)
 		(effects

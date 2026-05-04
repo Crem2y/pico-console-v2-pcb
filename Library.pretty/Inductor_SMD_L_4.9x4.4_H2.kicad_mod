@@ -1,0 +1,144 @@
+(footprint "Inductor_SMD:L_4.9x4.4_H2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3be3c7fb-e5e8-4960-b7ca-0e86d3307d3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Inductor_SMD:L_4.9x4.4_H2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ac594f1e-6bbb-4c7a-b291-bab44b7ad912")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6002c8c4-c0cf-4505-b09a-fa4d2e10341d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e0a3768-8fd5-4948-bcd9-6d8d76d551a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.45 -2.2)
+		(end 2.45 -2.2)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d171ab6-9ff5-48ef-bf91-7fb4d2b58ed1")
+	)
+	(fp_line
+		(start -2.45 -1.25)
+		(end -2.45 -2.2)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2dd6123e-8aab-427a-be04-a44c090dc307")
+	)
+	(fp_line
+		(start -2.45 2.175)
+		(end -2.45 1.225)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2968133-1911-4699-aa18-297af7bf0b1e")
+	)
+	(fp_line
+		(start 2.45 -2.2)
+		(end 2.45 -1.25)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e4199b5-4375-4497-95e4-ed95363c229e")
+	)
+	(fp_line
+		(start 2.45 1.225)
+		(end 2.45 2.175)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce568f9d-2226-404a-a5bc-dbc3974435f5")
+	)
+	(fp_line
+		(start 2.45 2.175)
+		(end -2.45 2.175)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbf280c2-312e-45f3-893d-da024f16a04c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d6a4fe24-006d-477f-99c2-bdaeaa7bf230")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.78 -0.01)
+		(size 1.4 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "22052bd6-dd58-4b4a-b103-b02c3f4fdb03")
+	)
+	(pad "2" smd roundrect
+		(at 1.78 0)
+		(size 1.4 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "c1c5ec7c-1098-4470-8b43-66a2ce07ce98")
+	)
+	(embedded_fonts no)
+)
